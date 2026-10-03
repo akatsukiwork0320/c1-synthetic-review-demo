@@ -1,0 +1,25 @@
+{
+  "client_date": "2026-10-03",
+  "files": [
+    {
+      "bytes": 17984,
+      "path": "LICENSES/GPL-2.0.txt",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "url": "https://ftp.gnu.org/pub/gnu/Licenses/gpl-2.0.txt"
+    },
+    {
+      "bytes": 8638,
+      "path": "upstream/TickMath.sol",
+      "sha256": "83cf64b2ca84001effd16e007b49bac5359143b6c3132bfe42907b2426a0c5f5",
+      "url": "https://raw.githubusercontent.com/Uniswap/v3-core/e3589b192d0be27e100cd0daaf6c97204fdb1899/contracts/libraries/TickMath.sol"
+    },
+    {
+      "bytes": 5964,
+      "path": "upstream/IUniswapV3PoolEvents.sol",
+      "sha256": "2c2b798ca4288dfdf746bca8516b4e725b79ca6636af3d38a5a64801e50020a7",
+      "url": "https://raw.githubusercontent.com/Uniswap/v3-core/e3589b192d0be27e100cd0daaf6c97204fdb1899/contracts/interfaces/pool/IUniswapV3PoolEvents.sol"
+    }
+  ],
+  "schema": "c1-public-source-pins/1",
+  "scope": "Fixed official public license and source downloads; no private data sent"
+}

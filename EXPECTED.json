@@ -1,0 +1,106 @@
+{
+  "cases": {
+    "D1": {
+      "core": {
+        "liquidity": "12",
+        "sqrtPriceX96": "79228162514264337593543950336",
+        "tick": 0
+      },
+      "counts": {
+        "events_applied": 4,
+        "headers": 2
+      },
+      "event_counts": {
+        "Burn": 1,
+        "Flash": 1,
+        "Mint": 1,
+        "Swap": 1
+      },
+      "exit_code": 0,
+      "layer": "REPLAY_WRAPPER",
+      "model": "ASSUMED_MODEL",
+      "native_status": "Known",
+      "reason": "CONDITIONAL_CORE_TICKS_REPLAY_COMPLETE",
+      "source_class": "SYNTHETIC_FIXTURE",
+      "source_identity": "UNKNOWN",
+      "ticks": [
+        {
+          "gross": "12",
+          "net": "12",
+          "tick": -60
+        },
+        {
+          "gross": "12",
+          "net": "-12",
+          "tick": 60
+        }
+      ],
+      "verification_scope": "MATHEMATICAL_INTEGRITY"
+    },
+    "D2": {
+      "events": [],
+      "exit_code": 0,
+      "issues": [
+        {
+          "code": "TRANSACTION_COVERAGE_UNCONFIRMED"
+        }
+      ],
+      "layer": "TRANSACTION_DECODER",
+      "native_status": "Unknown",
+      "replayable": false
+    },
+    "D3": {
+      "events": [],
+      "exit_code": 0,
+      "issues": [
+        {
+          "code": "ABI_DATA_LENGTH"
+        }
+      ],
+      "layer": "TRANSACTION_DECODER",
+      "native_status": "Invalid",
+      "replayable": false
+    },
+    "D4": {
+      "core": {
+        "liquidity": "12",
+        "sqrtPriceX96": "79228162514264337593543950336",
+        "tick": 0
+      },
+      "counts": {
+        "events_applied": 5,
+        "headers": 2
+      },
+      "event_counts": {
+        "Burn": 1,
+        "Collect": 1,
+        "Flash": 1,
+        "Mint": 1,
+        "Swap": 1
+      },
+      "exit_code": 0,
+      "layer": "REPLAY_WRAPPER",
+      "model": "ASSUMED_MODEL",
+      "native_status": "Known",
+      "reason": "CONDITIONAL_CORE_TICKS_REPLAY_COMPLETE",
+      "source_class": "SYNTHETIC_FIXTURE",
+      "source_identity": "UNKNOWN",
+      "ticks": [
+        {
+          "gross": "12",
+          "net": "12",
+          "tick": -60
+        },
+        {
+          "gross": "12",
+          "net": "-12",
+          "tick": 60
+        }
+      ],
+      "verification_scope": "MATHEMATICAL_INTEGRITY"
+    }
+  },
+  "derivation": "Hand-defined before demo execution: initial liquidity 10 plus Mint 3 minus Burn 1 gives 12; Swap supplies the same post-state; Flash and the selected zero Collect do not change CORE/TICKS. Decoder expectations are selected native outcomes, not wrapper states. Synthetic initialized endpoints are now -60 and +60; current tick remains zero.",
+  "schema": "c1-synthetic-review-expected/1",
+  "source_class": "SYNTHETIC_FIXTURE"
+}

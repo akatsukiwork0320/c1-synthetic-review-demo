@@ -1,0 +1,89 @@
+{
+  "base_unit": "p5_replay_v1_2",
+  "compared_to_prior_design_pins": true,
+  "files": [
+    {
+      "bytes": 13035,
+      "copied_unchanged": true,
+      "sha256": "01479c977c9117defaa7115402ce619cc4df01a5bea03d623bd4c7b1818e662b",
+      "source_file": "replay.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 11557,
+      "copied_unchanged": true,
+      "sha256": "d9715852f16fe3b1938eeba7c13e149d56e3bdd8d7731d6f357a85daca9b3e45",
+      "source_file": "event_decoder.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 9567,
+      "copied_unchanged": true,
+      "sha256": "dd3e97fe55ae68f8fbaf22d5138a649914c8b6ed8ba80e555789242794013097",
+      "source_file": "reference_abi.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 19461,
+      "copied_unchanged": true,
+      "sha256": "0068d1b09cbae492056a7bc2511163454eaa38f99f3d107f9c96c3640cc6634f",
+      "source_file": "replay_store.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 6860,
+      "copied_unchanged": true,
+      "sha256": "565ba29b8f5823d6f31b57f4fcf15ee17309bcc6872c5f1605f509f7c865575f",
+      "source_file": "tick_index.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 11542,
+      "copied_unchanged": true,
+      "sha256": "f4389eb627ea934e7c35c915faf506553a0e63e36761ecc6914fbd61a39e6c6a",
+      "source_file": "ref_invariants.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 1927,
+      "copied_unchanged": true,
+      "sha256": "f81dc5c28015c9596c0f2997d2aa75e9f419b8b6a7d640070a530f5ad9977f6c",
+      "source_file": "support.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 1957,
+      "copied_unchanged": true,
+      "sha256": "c8bb9e8428bc987ae1013e36bdfa177e856c80b5ea637ce041ea38ecc0a9684a",
+      "source_file": "process_guard.py",
+      "use": "RUNTIME_COPY"
+    },
+    {
+      "bytes": 23150,
+      "copied_unchanged": false,
+      "sha256": "346fbec1fbf63d684ab80a2788f17183d9f3688d16f4ce10a2210c087927d4aa",
+      "source_file": "test_replay_integration.py",
+      "use": "FIXTURE_REFERENCE_ONLY"
+    },
+    {
+      "bytes": 16523,
+      "copied_unchanged": false,
+      "sha256": "3d4be3a05de2e1986f9878d81821121a1d63e320cbc138ba6432d906c038dd1c",
+      "source_file": "test_event_decoder.py",
+      "use": "FIXTURE_REFERENCE_ONLY"
+    }
+  ],
+  "fixture_changes": [
+    "Extracted only four designed cases into a standalone builder",
+    "Replaced dummy code pin with eight actual runtime module pins",
+    "Use fresh guarded child processes, without mocking audit-hook installation",
+    "Separate hand-defined expected results from production outputs",
+    "Revision v1.1 selects a spacing of 60 and matching endpoints; runtime engine copies remain unchanged"
+  ],
+  "licensing": "Author-controlled candidate contributions are GPL-2.0-or-later; see LICENSE_NOTICE.md and LICENSE_MAP.json; existing third-party grants retained",
+  "schema": "c1-synthetic-source-provenance/1",
+  "scope": "Eight byte-identical runtime files, plus two inspected synthetic test references; no real input artifacts",
+  "upstream": {
+    "TickMath_commit": "e3589b192d0be27e100cd0daaf6c97204fdb1899"
+  }
+}

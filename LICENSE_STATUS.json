@@ -1,0 +1,15 @@
+{
+  "schema": "c1-synthetic-license-status/2",
+  "license_expression": "GPL-2.0-or-later",
+  "author_election_for_new_material": "ELECTED",
+  "author": "Satoshi Kawasaki",
+  "effective_date": "2026-10-03",
+  "scope": "Author-controlled candidate material and contributions; existing upstream grants retained",
+  "election_notice": "LICENSE_NOTICE.md",
+  "license_map": "LICENSE_MAP.json",
+  "publication_authorized": false,
+  "public_distribution": "HOLD_FOR_PUBLICATION_INSTRUCTION",
+  "third_party_notices": "THIRD_PARTY_NOTICES.md",
+  "license_text": "LICENSE",
+  "note": "The publication workflow label is not an additional restriction on recipients under the GPL. Licence texts retain their FSF verbatim-copy permission."
+}

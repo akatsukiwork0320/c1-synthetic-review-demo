@@ -1,0 +1,97 @@
+{
+  "archive_sha256": null,
+  "cases": [
+    {
+      "case_id": "D1",
+      "failures": [],
+      "layer": "REPLAY_WRAPPER",
+      "native_status": "Known",
+      "test_verdict": "PASS"
+    },
+    {
+      "case_id": "D2",
+      "failures": [],
+      "layer": "TRANSACTION_DECODER",
+      "native_status": "Unknown",
+      "test_verdict": "PASS"
+    },
+    {
+      "case_id": "D3",
+      "failures": [],
+      "layer": "TRANSACTION_DECODER",
+      "native_status": "Invalid",
+      "test_verdict": "PASS"
+    },
+    {
+      "case_id": "D4",
+      "failures": [],
+      "layer": "REPLAY_WRAPPER",
+      "native_status": "Known",
+      "test_verdict": "PASS"
+    }
+  ],
+  "copied_payload_pins": {
+    "EXPECTED.json": "4478d937d7c880f0e279ab7c5f21689baace67fc475fa2a5b5a87a80916203de",
+    "LICENSE": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "LICENSES/GPL-2.0.txt": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "LICENSE_MAP.json": "e7b5c8e6d559a79f6a97a946cde20729804ef597ce30558132d9271d1e83b32c",
+    "LICENSE_NOTICE.md": "c305cdff560b3afd1ae31d5d336a2fb2307c12713dcbf36c3feb617efeb816c2",
+    "LICENSE_STATUS.json": "a8ff64f5acdfb8833f4dc72fb3e7412ad006ddedfbd210c8df17de95ee0e2eed",
+    "LIMITS.json": "3942d32ff6ae215c173741ff9e5e14972ffce43df39af5a6a633e8900bd985bb",
+    "PUBLIC_SOURCE_PINS.json": "c451fc408f05a3326b39a1406699a1d3bca8045c4b2213601ad8127f9759cdcf",
+    "README.md": "6bef1d09a7023ea21e85a7d7973b2014abd6573831c6a647a2a0d9cc314df6e8",
+    "README_JA.md": "737b0d637b9f70bbe147582f911cf1e558eefa96e76000f14b0240e71348f459",
+    "RUNTIME_MANIFEST.json": "eeec6ec58b8274f8c133b47574fb989c34e31d2f3264fcf4c74dc99c00412b0d",
+    "SOURCE_PROVENANCE.json": "db893bc9207d39b8bbc35626f961a0c76419b2b707edf6c2eda640b3e9d0ac6e",
+    "THIRD_PARTY_NOTICES.md": "52a00d30a7ee0894aa71bf505e903ea619782bdcd79de6756ce9c2a87c698508",
+    "clean_check.py": "c1cb15d3cb5d252c91198930740248c54e9ee7e54db6f30556dae837267d00f8",
+    "comparison.py": "6923716552a399ce2d5b8cce42f0d1743b68797682217ff266615b49147260a3",
+    "engine/event_decoder.py": "d9715852f16fe3b1938eeba7c13e149d56e3bdd8d7731d6f357a85daca9b3e45",
+    "engine/process_guard.py": "c8bb9e8428bc987ae1013e36bdfa177e856c80b5ea637ce041ea38ecc0a9684a",
+    "engine/ref_invariants.py": "f4389eb627ea934e7c35c915faf506553a0e63e36761ecc6914fbd61a39e6c6a",
+    "engine/reference_abi.py": "dd3e97fe55ae68f8fbaf22d5138a649914c8b6ed8ba80e555789242794013097",
+    "engine/replay.py": "01479c977c9117defaa7115402ce619cc4df01a5bea03d623bd4c7b1818e662b",
+    "engine/replay_store.py": "0068d1b09cbae492056a7bc2511163454eaa38f99f3d107f9c96c3640cc6634f",
+    "engine/support.py": "f81dc5c28015c9596c0f2997d2aa75e9f419b8b6a7d640070a530f5ad9977f6c",
+    "engine/tick_index.py": "565ba29b8f5823d6f31b57f4fcf15ee17309bcc6872c5f1605f509f7c865575f",
+    "fixture_builder.py": "314d210c1f318904abbbf7e88f2feaed5fb5e1c3c2204db732aeaab24ecd4da4",
+    "package_demo.py": "4aa79d8a44f3faf12a5364b9eda12261756c83d17c4c7bae666051c3fc75c879",
+    "run_checks.py": "2bb3f493f76465477742f0c63c95a74972def25bef3178ee063568592d01bc84",
+    "run_demo.py": "53e726ff94731ca4513d15fb940d4bd25593ec940aaa5fc6e059f9d38a530dbd",
+    "test_demo.py": "8bc093d9fdf250ef0d2c31a4963925991532e8d651bf70d7c623be23c935b5db",
+    "upstream/IUniswapV3PoolEvents.sol": "2c2b798ca4288dfdf746bca8516b4e725b79ca6636af3d38a5a64801e50020a7",
+    "upstream/TickMath.sol": "83cf64b2ca84001effd16e007b49bac5359143b6c3132bfe42907b2426a0c5f5",
+    "worker.py": "dda2f226279af4f74157d22ad52996657c05fc5bbcf65323b13c3938ef770d25"
+  },
+  "driver_pins": {
+    "clean_check.py": "c1cb15d3cb5d252c91198930740248c54e9ee7e54db6f30556dae837267d00f8",
+    "package_demo.py": "4aa79d8a44f3faf12a5364b9eda12261756c83d17c4c7bae666051c3fc75c879"
+  },
+  "harness_test_methods": 22,
+  "inputs_and_code_unchanged": true,
+  "limitations": [
+    "Same local Python installation; not a new OS or Python-version matrix",
+    "Isolated Python search path and working directory; source tree is not unmounted",
+    "Worker audit hooks observe only their own process after installation"
+  ],
+  "location_class": "TEMPORARY_DIRECTORY_OUTSIDE_SOURCE_TREE",
+  "mode": "ALLOWLIST_COPY",
+  "platform": "Windows",
+  "processes": [
+    {
+      "exit_code": 0,
+      "script": "run_demo.py",
+      "stderr_empty": true
+    },
+    {
+      "exit_code": 0,
+      "script": "run_checks.py",
+      "stderr_empty": true
+    }
+  ],
+  "python": "3.12.6",
+  "runtime_manifest_sha256": "eeec6ec58b8274f8c133b47574fb989c34e31d2f3264fcf4c74dc99c00412b0d",
+  "schema": "c1-synthetic-clean-run/1",
+  "sqlite": "3.45.3",
+  "status": "PASS"
+}

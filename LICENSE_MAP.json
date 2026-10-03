@@ -1,0 +1,211 @@
+{
+  "existing_third_party_rights_retained": true,
+  "files": [
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "CHECKS.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "CLEAN_RUN.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "EXPECTED.json"
+    },
+    {
+      "basis": "Existing FSF notice permits verbatim copies of the licence document; text unchanged",
+      "category": "FSF_LICENSE_DOCUMENT",
+      "license_expression": null,
+      "path": "LICENSE"
+    },
+    {
+      "basis": "Existing FSF notice permits verbatim copies of the licence document; text unchanged",
+      "category": "FSF_LICENSE_DOCUMENT",
+      "license_expression": null,
+      "path": "LICENSES/GPL-2.0.txt"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "LICENSE_MAP.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "LICENSE_NOTICE.md"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "LICENSE_STATUS.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "LIMITS.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "MANIFEST.sha256"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "PUBLIC_SOURCE_PINS.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "README.md"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "README_JA.md"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "RUNTIME_MANIFEST.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "SOURCE_PROVENANCE.json"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "clean_check.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "comparison.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled contributions; upstream references and SOURCE_PROVENANCE.json retained; bytes unchanged",
+      "category": "AUTHOR_CONTROLLED_ENGINE_CONTRIBUTIONS",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/event_decoder.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled contributions; upstream references and SOURCE_PROVENANCE.json retained; bytes unchanged",
+      "category": "AUTHOR_CONTROLLED_ENGINE_CONTRIBUTIONS",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/process_guard.py"
+    },
+    {
+      "basis": "Existing SPDX and TickMath attribution retained; SOURCE_PROVENANCE.json; bytes unchanged",
+      "category": "EXISTING_GPL_DERIVED_SOURCE",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/ref_invariants.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled contributions; upstream references and SOURCE_PROVENANCE.json retained; bytes unchanged",
+      "category": "AUTHOR_CONTROLLED_ENGINE_CONTRIBUTIONS",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/reference_abi.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled contributions; upstream references and SOURCE_PROVENANCE.json retained; bytes unchanged",
+      "category": "AUTHOR_CONTROLLED_ENGINE_CONTRIBUTIONS",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/replay.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled contributions; upstream references and SOURCE_PROVENANCE.json retained; bytes unchanged",
+      "category": "AUTHOR_CONTROLLED_ENGINE_CONTRIBUTIONS",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/replay_store.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled contributions; upstream references and SOURCE_PROVENANCE.json retained; bytes unchanged",
+      "category": "AUTHOR_CONTROLLED_ENGINE_CONTRIBUTIONS",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/support.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled contributions; upstream references and SOURCE_PROVENANCE.json retained; bytes unchanged",
+      "category": "AUTHOR_CONTROLLED_ENGINE_CONTRIBUTIONS",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "engine/tick_index.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "fixture_builder.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "package_demo.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "run_checks.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "run_demo.py"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "test_demo.py"
+    },
+    {
+      "basis": "Existing SPDX notice and PUBLIC_SOURCE_PINS.json; source unchanged",
+      "category": "UPSTREAM_GPL_SOURCE",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "upstream/IUniswapV3PoolEvents.sol"
+    },
+    {
+      "basis": "Existing SPDX notice and PUBLIC_SOURCE_PINS.json; source unchanged",
+      "category": "UPSTREAM_GPL_SOURCE",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "upstream/TickMath.sol"
+    },
+    {
+      "basis": "LICENSE_NOTICE.md election for author-controlled code, documents, fixtures, metadata or records",
+      "category": "AUTHOR_CONTROLLED_DEMO_MATERIAL",
+      "license_expression": "GPL-2.0-or-later",
+      "path": "worker.py"
+    }
+  ],
+  "schema": "c1-demo-license-map/1",
+  "scope": "Portable payload and manifest only; not internal revision records"
+}
