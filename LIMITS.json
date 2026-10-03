@@ -1,7 +1,0 @@
-{
-  "cases": 4,
-  "child_seconds": 20,
-  "case_files": 64,
-  "case_bytes": 16777216,
-  "scope": "Fixed synthetic fixture caps and per-child timeout; post-run file/byte checks are not an OS memory/disk quota"
-}
