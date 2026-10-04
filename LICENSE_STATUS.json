@@ -1,5 +1,5 @@
 {
-  "schema": "c1-synthetic-license-status/2",
+  "schema": "c1-synthetic-license-status/3",
   "license_expression": "GPL-2.0-or-later",
   "author_election_for_new_material": "ELECTED",
   "author": "Satoshi Kawasaki",
@@ -7,9 +7,11 @@
   "scope": "Author-controlled candidate material and contributions; existing upstream grants retained",
   "election_notice": "LICENSE_NOTICE.md",
   "license_map": "LICENSE_MAP.json",
-  "publication_authorized": false,
-  "public_distribution": "HOLD_FOR_PUBLICATION_INSTRUCTION",
+  "publication_authorized": true,
+  "public_distribution": "PUBLIC_RELEASE",
   "third_party_notices": "THIRD_PARTY_NOTICES.md",
   "license_text": "LICENSE",
-  "note": "The publication workflow label is not an additional restriction on recipients under the GPL. Licence texts retain their FSF verbatim-copy permission."
+  "note": "GPL election and effective date unchanged. Previous preparation-state labels belong to the preserved v1.1 archive. Licence texts retain their FSF verbatim-copy permission.",
+  "release_version": "1.2",
+  "publication_record_scope": "Release designation and author authorization; GitHub commits record actual publication"
 }

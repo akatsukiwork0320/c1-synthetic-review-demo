@@ -1,11 +1,11 @@
 {
   "code_unchanged": true,
   "driver_pins": {
-    "package_demo.py": "4aa79d8a44f3faf12a5364b9eda12261756c83d17c4c7bae666051c3fc75c879",
+    "package_demo.py": "a360d393ed711e334e6a2fa87ce81e844e9dd26c98963287679470141bf0499f",
     "run_checks.py": "2bb3f493f76465477742f0c63c95a74972def25bef3178ee063568592d01bc84",
     "test_demo.py": "8bc093d9fdf250ef0d2c31a4963925991532e8d651bf70d7c623be23c935b5db"
   },
-  "elapsed_seconds": 1.5459999999729916,
+  "elapsed_seconds": 1.8119999999762513,
   "errors": 0,
   "failed_test_ids": [],
   "failures": 0,

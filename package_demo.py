@@ -71,8 +71,8 @@ def verify_licenses():
     status=json.loads((UNIT/'LICENSE_STATUS.json').read_bytes())
     if status.get('author_election_for_new_material')!='ELECTED' or status.get('license_expression')!='GPL-2.0-or-later':
         raise ValueError('LICENSE_ELECTION_MISSING')
-    if status.get('publication_authorized') is not False:
-        raise ValueError('UNEXPECTED_PUBLICATION_AUTHORIZATION')
+    if status.get('publication_authorized') is not True or status.get('public_distribution') != 'PUBLIC_RELEASE':
+        raise ValueError('PUBLIC_RELEASE_METADATA_MISMATCH')
     rows=json.loads((UNIT/'LICENSE_MAP.json').read_bytes()).get('files',[])
     if len(rows)!=len(FILES)+1 or {r['path'] for r in rows}!=set(FILES)|{'MANIFEST.sha256'}:
         raise ValueError('LICENSE_MAP_COVERAGE')
@@ -121,8 +121,8 @@ def build():
             info=zipfile.ZipInfo(name,date_time=(1980,1,1,0,0,0))
             info.create_system=3;info.external_attr=0o100644<<16
             z.writestr(info,(UNIT/name).read_bytes(),compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
-    DELIVERY.write_bytes(enc({'schema':'c1-synthetic-review-demo-delivery/1','distribution':'PUBLIC_CANDIDATE_NOT_PUBLISHED',
-        'public_distribution':'HOLD_FOR_PUBLICATION_INSTRUCTION','license_expression':'GPL-2.0-or-later',
+    DELIVERY.write_bytes(enc({'schema':'c1-synthetic-review-demo-delivery/1','distribution':'PUBLIC_RELEASE_ARTIFACT',
+        'public_distribution':'PUBLIC_RELEASE','license_expression':'GPL-2.0-or-later',
         'manifest_entries':len(FILES),'zip_members':len(FILES)+1,
         'manifest_sha256':sha((UNIT/'MANIFEST.sha256').read_bytes()),'zip_sha256':sha(ARCHIVE.read_bytes())}))
     verify()

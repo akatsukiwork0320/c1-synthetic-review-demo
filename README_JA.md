@@ -1,14 +1,14 @@
-# C1 照会用・合成デモ v1.1
+# C1 照会用・合成デモ v1.2
 
-ローカルの公開候補であり、メール送信・アップロード・公開はしていない。著者が権利を管理する対象には、`LICENSE_NOTICE.md` と `LICENSE_MAP.json` の範囲で GPL-2.0-or-later を選択済みである。公開状態は `HOLD_FOR_PUBLICATION_INSTRUCTION` で、公開の指示を待つ。`LOCAL_RESTRICTED` は公開前の著者側の作業方針を表し、GPL に基づく受領者の権利への追加制約ではない。
+公開済みの合成デモです。小さな合成入力の状態比較と、網羅性未確認・不正ABIに対する復号器の応答を確認できます。v1.2では公開状態の説明と梱包時の検査・記録を更新しました。8件のエンジンと合成入力はv1.1から変更していません。著者が権利を管理する範囲のライセンスは、`LICENSE_NOTICE.md` と `LICENSE_MAP.json` に従い GPL-2.0-or-later です。
 
 ## 実行方法
 
 ZIP を新しい場所へ展開し、その場所で次を実行する。Python 3.12.6、標準ライブラリだけで動作する。
 
 ```text
-python -I -B run_demo.py --output ../demo_run1_1
-python -I -B run_checks.py --output ../demo_checks1_1.json
+python -I -B run_demo.py --output ../demo_run1_2
+python -I -B run_checks.py --output ../demo_checks1_2.json
 ```
 
 出力先は毎回新しい名前にする。既存の出力や封印物は上書きしない。`RESULT.json` と `SUMMARY.md` に4例の結果、`ENVIRONMENT.json` に実行環境を記録する。
@@ -32,7 +32,7 @@ Unknown/Invalid も設計した期待値なら試験として PASS である。D
 - 実行コード・合成入力の前後ハッシュ、子プロセスの終了結果、ガード観測を確認する。
 - `CHECKS.json` はハーネスの試験記録であり、実際の実行件数と結果はこの記録に従う。
 - `CLEAN_RUN.json` は元フォルダ以外の一時ディレクトリに必要ファイルだけを写し、Python の分離実行で4例とハーネス試験を再実行した記録である。同じPC・Pythonでの確認であり、異なるOSや全Python版の検証ではない。
-- 最終ZIPの展開実行は、隣の `synthetic_review_demo_v1_1.VERIFICATION.json` に別途記録する。
+- 最終ZIPの展開実行は、隣の `synthetic_review_demo_v1_2.VERIFICATION.json` に別途記録する。
 
 ガードはフック設置後の子プロセス内だけを観測する。OSの隔離、PC全体の無通信、SQLiteのネイティブI/Oすべての観測を保証しない。ファイル容量の上限は前後の検査であり、実行中のディスク・メモリ割当てをOSで強制するものではない。
 
@@ -44,6 +44,10 @@ Known は合成の模型・証拠という前提つきで、ASSUMED_MODEL／配�
 
 著者が権利を管理するコード、合成入力、試験、文書、メタデータの対象には GPL-2.0-or-later を選択済みである。8本の実行コードのバイト列を変えず、外部のライセンス表示とファイル別一覧で対象を明示する。上流ソースの既存のライセンス許諾・コメント・SPDX表示は保持する。`LICENSES/GPL-2.0.txt` はFSFのライセンス文書であり、その本文自身に記された逐語的複製の許諾を保持する。BUSL-1.1 表示を持つ完全なプール参照ソースは同梱しない。ライセンス選択の完了は、独立した法律判断や公開承認の完了を意味しない。
 
-梱包は明示したファイル一覧だけで行う。`MANIFEST.sha256` は同梱ファイルの整合性を確認するための記録である。公開候補の外部管理用マニフェスト、publication-selection 記録、隣接する配布物ハッシュ・展開実行記録はZIPに含めない。作業フォルダそのものを共有用の束とは扱わない。著者名とAI利用開示の承認は維持するが、送信・公開の承認には読み替えない。公開指示を待つ著者側の方針は、GPL受領者の権利を変更しない。
+梱包は明示したファイル一覧だけで行う。`MANIFEST.sha256` は同梱ファイルの整合性を確認するための記録である。公開候補の外部管理用マニフェスト、publication-selection 記録、隣接する配布物ハッシュ・展開実行記録はZIPに含めない。作業フォルダそのものを共有用の束とは扱わない。リポジトリと合成デモは公開済みであり、非公開の取得物や照会メールを含まない。メタデータの PUBLIC_RELEASE は公開用配布物の区分であり、アップロード済みであることの暗号学的証明でも、追加のライセンス制約でもない。
 
 ChatGPT/Codex が実装・文書を生成し、AIによるコードレビューを補助に使った。今回の確認を人間・外部機関による独立監査や数学的完全性の証明とは呼ばない。
+
+## 固定配布物と旧版
+
+[固定v1.2 ZIPとSHA-256](https://github.com/akatsukiwork0320/c1-synthetic-review-demo/tree/distribution-v1.2)から取得できます。[固定v1.1 ZIP](https://github.com/akatsukiwork0320/c1-synthetic-review-demo/tree/9dc29ba41194c7e9900c0dcae0b03ce47a993f11)は変更していません。旧ZIP内の公開前のHOLD表示は準備時点の記録です。固定配布ZIPとGitHubが生成するソースZIPは別のアーカイブです。

@@ -1,6 +1,6 @@
 # Source and licence notices
 
-The author has elected GPL-2.0-or-later for the author-controlled material and contributions identified in `LICENSE_NOTICE.md` and `LICENSE_MAP.json`. Existing third-party grants and notices remain applicable. `LICENSE_STATUS.json` records `HOLD_FOR_PUBLICATION_INSTRUCTION` for publication: the licence election does not authorize sending, uploading, or publishing this local candidate. `LOCAL_RESTRICTED` is the author's pre-publication handling policy, not an additional restriction on the GPL rights of recipients.
+The author has elected GPL-2.0-or-later for the author-controlled material and contributions identified in `LICENSE_NOTICE.md` and `LICENSE_MAP.json`. Existing third-party grants and notices remain applicable. `LICENSE_STATUS.json` records the authorized `PUBLIC_RELEASE` classification. This synthetic demo is public; private research records are excluded. The unchanged v1.1 archive retains its preparation-time labels, which do not restrict recipients' GPL rights.
 
 ## Selected engine copies
 
