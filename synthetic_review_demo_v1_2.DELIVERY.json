@@ -1,0 +1,10 @@
+{
+  "distribution": "PUBLIC_RELEASE_ARTIFACT",
+  "license_expression": "GPL-2.0-or-later",
+  "manifest_entries": 33,
+  "manifest_sha256": "a913f4de6124ff64c39488495563b3880e58511065819c97a0f0e38c743b0721",
+  "public_distribution": "PUBLIC_RELEASE",
+  "schema": "c1-synthetic-review-demo-delivery/1",
+  "zip_members": 34,
+  "zip_sha256": "474c59d84fc685f751e1c7074b75acdb77a4fa443d2bfc266224bb7830618ffb"
+}
