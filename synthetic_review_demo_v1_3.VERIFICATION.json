@@ -1,5 +1,5 @@
 {
-  "archive_sha256": "474c59d84fc685f751e1c7074b75acdb77a4fa443d2bfc266224bb7830618ffb",
+  "archive_sha256": "190858cdb5e956ae00050e7a64bb16cb3eb955ce18ca52e62b5145936c7944de",
   "cases": [
     {
       "case_id": "D1",
@@ -31,34 +31,34 @@
     }
   ],
   "copied_payload_pins": {
-    "CHECKS.json": "8f469d483f783dd3c8e0739a4b1fa0dbf1351c30d308414479c4004b545ac1c4",
-    "CLEAN_RUN.json": "a11ba6819dd14ee25832b918f70ed6244edb3d66918c03cc003c243633ddfa74",
+    "CHECKS.json": "ec8757ac45f556caabc1bef94183f181c9457a31980e76ad861e168c57ca3ca1",
+    "CLEAN_RUN.json": "f9e2d3864d4377cd933926ef726c916a141e76d7623344ec6fcb82810b0026c0",
     "EXPECTED.json": "4478d937d7c880f0e279ab7c5f21689baace67fc475fa2a5b5a87a80916203de",
     "LICENSE": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
     "LICENSES/GPL-2.0.txt": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
-    "LICENSE_MAP.json": "e7b5c8e6d559a79f6a97a946cde20729804ef597ce30558132d9271d1e83b32c",
-    "LICENSE_NOTICE.md": "15edf8202fbe52f0d4ed5e5bee97c48bea1a0ebfa884f3558eabae0386dc5ba4",
-    "LICENSE_STATUS.json": "e3e077fbfdf42e17c764343d66ab6cda9bed7732e9de3e3a617376b32aa513eb",
+    "LICENSE_MAP.json": "6692b010ebe18764cc126875675963235d159ab8286fa108fdd9ccdfe0aceb47",
+    "LICENSE_NOTICE.md": "38f38d241cfff2d435e356b458233b8bc830295e5aa62c3bea401f82dd82b65e",
+    "LICENSE_STATUS.json": "337512b00b824a175b0b750799b6bf523dfa78fee9397a07b07fbf75bb9aad3e",
     "LIMITS.json": "3942d32ff6ae215c173741ff9e5e14972ffce43df39af5a6a633e8900bd985bb",
-    "MANIFEST.sha256": "a913f4de6124ff64c39488495563b3880e58511065819c97a0f0e38c743b0721",
+    "MANIFEST.sha256": "8e16021de5a40603c6a9744e517ff88a71bc0e701b30ecbb1d77194db30c1e9b",
     "PUBLIC_SOURCE_PINS.json": "c451fc408f05a3326b39a1406699a1d3bca8045c4b2213601ad8127f9759cdcf",
-    "README.md": "0d09b87c5d4ae3e99f175a8fcdee3bf6493d7ba26b242bd3ecbc0b9a3e5a78f7",
-    "README_JA.md": "c7605e91ef412f5873c1384743ec8137cab2b41e6fcf593754258b3ff4571426",
-    "RUNTIME_MANIFEST.json": "eeec6ec58b8274f8c133b47574fb989c34e31d2f3264fcf4c74dc99c00412b0d",
-    "SOURCE_PROVENANCE.json": "db893bc9207d39b8bbc35626f961a0c76419b2b707edf6c2eda640b3e9d0ac6e",
-    "THIRD_PARTY_NOTICES.md": "d9bfdec01b8048581b15eac0cd69e03a9b1630608b1c048d74bec71af4edfcc3",
+    "README.md": "c73530db8a5df8239a32a82b6cbc9bddfe414bb7eff9afb8fbb837166c75c69f",
+    "README_JA.md": "2fa78fb26da3a0c2ff64f383b4f8ff4189a888f8b2897fa15e1259b4ee63d4d0",
+    "RUNTIME_MANIFEST.json": "341f5384c18e3c8640fa4f71b92b55d84d5320d331e5e6c85c0a17513d3d6cac",
+    "SOURCE_PROVENANCE.json": "b09700759653aadee9e23e6becb41e1766256e1bcc60171025c0278a96c12c2e",
+    "THIRD_PARTY_NOTICES.md": "2a938bc2c34365f845130ffe3a65871c7169375509883600fe4b6bf1cd017794",
     "clean_check.py": "c1cb15d3cb5d252c91198930740248c54e9ee7e54db6f30556dae837267d00f8",
     "comparison.py": "6923716552a399ce2d5b8cce42f0d1743b68797682217ff266615b49147260a3",
     "engine/event_decoder.py": "d9715852f16fe3b1938eeba7c13e149d56e3bdd8d7731d6f357a85daca9b3e45",
     "engine/process_guard.py": "c8bb9e8428bc987ae1013e36bdfa177e856c80b5ea637ce041ea38ecc0a9684a",
-    "engine/ref_invariants.py": "f4389eb627ea934e7c35c915faf506553a0e63e36761ecc6914fbd61a39e6c6a",
+    "engine/ref_invariants.py": "ebf12a59b262060fcc364b73dd4162a4e7ff00b87c15a65f665a88755791acd0",
     "engine/reference_abi.py": "dd3e97fe55ae68f8fbaf22d5138a649914c8b6ed8ba80e555789242794013097",
     "engine/replay.py": "01479c977c9117defaa7115402ce619cc4df01a5bea03d623bd4c7b1818e662b",
     "engine/replay_store.py": "0068d1b09cbae492056a7bc2511163454eaa38f99f3d107f9c96c3640cc6634f",
     "engine/support.py": "f81dc5c28015c9596c0f2997d2aa75e9f419b8b6a7d640070a530f5ad9977f6c",
     "engine/tick_index.py": "565ba29b8f5823d6f31b57f4fcf15ee17309bcc6872c5f1605f509f7c865575f",
     "fixture_builder.py": "314d210c1f318904abbbf7e88f2feaed5fb5e1c3c2204db732aeaab24ecd4da4",
-    "package_demo.py": "a360d393ed711e334e6a2fa87ce81e844e9dd26c98963287679470141bf0499f",
+    "package_demo.py": "9c4f8ab6eeedc28f16fe7b71260789cfedb1194436e13200870f6e1a167f5b4f",
     "run_checks.py": "2bb3f493f76465477742f0c63c95a74972def25bef3178ee063568592d01bc84",
     "run_demo.py": "53e726ff94731ca4513d15fb940d4bd25593ec940aaa5fc6e059f9d38a530dbd",
     "test_demo.py": "8bc093d9fdf250ef0d2c31a4963925991532e8d651bf70d7c623be23c935b5db",
@@ -68,7 +68,7 @@
   },
   "driver_pins": {
     "clean_check.py": "c1cb15d3cb5d252c91198930740248c54e9ee7e54db6f30556dae837267d00f8",
-    "package_demo.py": "a360d393ed711e334e6a2fa87ce81e844e9dd26c98963287679470141bf0499f"
+    "package_demo.py": "9c4f8ab6eeedc28f16fe7b71260789cfedb1194436e13200870f6e1a167f5b4f"
   },
   "harness_test_methods": 22,
   "inputs_and_code_unchanged": true,
@@ -93,7 +93,7 @@
     }
   ],
   "python": "3.12.6",
-  "runtime_manifest_sha256": "eeec6ec58b8274f8c133b47574fb989c34e31d2f3264fcf4c74dc99c00412b0d",
+  "runtime_manifest_sha256": "341f5384c18e3c8640fa4f71b92b55d84d5320d331e5e6c85c0a17513d3d6cac",
   "schema": "c1-synthetic-clean-run/1",
   "sqlite": "3.45.3",
   "status": "PASS"
