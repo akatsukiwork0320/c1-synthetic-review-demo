@@ -1,18 +1,18 @@
-# C1 synthetic review demo v1.2
+# C1 synthetic review demo v1.3
 
-Published synthetic review demo. Use it to inspect exact state checks on small fixtures and the separate decoder outcomes for unconfirmed coverage and malformed input. Version 1.2 updates publication documentation and packaging checks; the eight engine modules and synthetic inputs are unchanged from v1.1. Author-controlled material is licensed under GPL-2.0-or-later as identified in `LICENSE_NOTICE.md` and `LICENSE_MAP.json`.
+Published synthetic review demo. Use it to inspect exact state checks on small fixtures and the separate decoder outcomes for unconfirmed coverage and malformed input. Version 1.3 adds dated change notices. Seven engine modules are byte-identical to v1.2; `ref_invariants.py` has a comment-only notice and the same Python AST. Fixture inputs and executable logic are unchanged. Author-controlled material is licensed under GPL-2.0-or-later as identified in `LICENSE_NOTICE.md` and `LICENSE_MAP.json`.
 
-This self-contained, standard-library Python package demonstrates four fixed synthetic examples. Eight engine modules are retained as byte-identical copies, with their source pins recorded in `SOURCE_PROVENANCE.json`. No real RPC responses, anchor evidence, acquisition indexes, addresses, or historical run records are included. The supplied fictitious identifiers are generated solely for the fixtures. This demo does not accept a real dataset or a network endpoint.
+This self-contained, standard-library Python package demonstrates four fixed synthetic examples. Eight engine modules are supplied, with original source pins and the notice-only change recorded in `SOURCE_PROVENANCE.json`. No real RPC responses, anchor evidence, acquisition indexes, addresses, or historical run records are included. The supplied fictitious identifiers are generated solely for the fixtures. This demo does not accept a real dataset or a network endpoint.
 
 ## Run
 
-Use the [fixed v1.2 ZIP and SHA-256 checksum](https://github.com/akatsukiwork0320/c1-synthetic-review-demo/tree/distribution-v1.2), or download the repository source. The preserved [v1.1 archive](https://github.com/akatsukiwork0320/c1-synthetic-review-demo/tree/9dc29ba41194c7e9900c0dcae0b03ce47a993f11) remains unchanged; its preparation-time HOLD labels are historical, not the current publication status. The fixed distribution ZIP and GitHub-generated source ZIP are different archives.
+Use the [fixed v1.3 ZIP and SHA-256 checksum](https://github.com/akatsukiwork0320/c1-synthetic-review-demo/tree/distribution-v1.3), or download the repository source. The preserved [v1.1 archive](https://github.com/akatsukiwork0320/c1-synthetic-review-demo/tree/9dc29ba41194c7e9900c0dcae0b03ce47a993f11) remains unchanged; its preparation-time HOLD labels are historical, not the current publication status. The fixed distribution ZIP and GitHub-generated source ZIP are different archives.
 
 Extract into a new directory. With Python 3.12.6, from that directory:
 
 ```text
-python -I -B run_demo.py --output ../demo_run1_2
-python -I -B run_checks.py --output ../demo_checks1_2.json
+python -I -B run_demo.py --output ../demo_run1_3
+python -I -B run_checks.py --output ../demo_checks1_3.json
 ```
 
 Both destinations must be new. Existing output is never overwritten. The runtime uses only the Python standard library, including SQLite; no package installation is needed. Python 3.12.6 is the tested version, not a claim of a tested version range.
@@ -40,12 +40,12 @@ Known remains conditional on the synthetic model/evidence premises: ASSUMED_MODE
 
 ## Evidence and packaging
 
-- `SOURCE_PROVENANCE.json`: source pins for the eight unchanged runtime copies and two synthetic test references.
+- `SOURCE_PROVENANCE.json`: original source pins for eight runtime files, the notice-only change, and two synthetic test references.
 - `RUNTIME_MANIFEST.json`: runtime file pins. Hash agreement is integrity checking, not an authenticated signature.
 - `CHECKS.json`: the harness test results and actual executed test count, bound to runtime and test-driver hashes.
 - `CLEAN_RUN.json`: an allowlisted copy executed outside the source directory with isolated Python import mode, using the same local Python installation. Both the four cases and the new harness tests are run.
 - `MANIFEST.sha256`: every portable payload file; final ZIP additionally includes this manifest.
-- Adjacent delivery/verification records: final archive hashes and the final ZIP's extracted execution, respectively. The extracted-run record is `synthetic_review_demo_v1_2.VERIFICATION.json`.
+- Adjacent delivery/verification records: final archive hashes and the final ZIP's extracted execution, respectively. The extracted-run record is `synthetic_review_demo_v1_3.VERIFICATION.json`.
 
 With the original adjacent ZIP and delivery record available, `python -B package_demo.py verify` checks the package. In an extracted directory that lacks those adjacent files, use the demo/test commands above. `package_demo.py build` can create a new local archive beside a complete folder before a manifest/archive exists; it refuses overwriting a sealed package. `stage` is only a development snapshot operation.
 
@@ -55,6 +55,6 @@ Packaging includes only explicitly allowlisted files. The working folder is not 
 
 The author supplied the research direction and approved AI-use disclosure. ChatGPT/Codex generated this harness and documentation with AI-assisted code review; this is not a human independent audit. These records do not assert author verification of every calculation.
 
-See `LICENSE_NOTICE.md`, `LICENSE_MAP.json`, `THIRD_PARTY_NOTICES.md`, and `LICENSE_STATUS.json`. The author-controlled code, fixtures, tests, documentation, and metadata are licensed under GPL-2.0-or-later as mapped there. The eight engine files remain unchanged; the external licence notice records the author election without modifying their bytes. Existing upstream grants, source comments, and SPDX notices are retained. `LICENSES/GPL-2.0.txt` is the FSF licence document, retained under its own verbatim-copy permission rather than relicensed as authored source code.
+See `LICENSE_NOTICE.md`, `LICENSE_MAP.json`, `THIRD_PARTY_NOTICES.md`, and `LICENSE_STATUS.json`. The author-controlled code, fixtures, tests, documentation, and metadata are licensed under GPL-2.0-or-later as mapped there. Seven engine files remain unchanged. The eighth has a dated attribution notice added in comments; the original source pin is retained. The external licence notice records the author election. Existing upstream grants, source comments, and SPDX notices are retained. `LICENSES/GPL-2.0.txt` is the FSF licence document, retained under its own verbatim-copy permission rather than relicensed as authored source code.
 
 The two included upstream Solidity files and the GPL text were obtained on 2026-10-03 and are pinned in `PUBLIC_SOURCE_PINS.json`; this release uses those retained copies. Neither Solidity file is executed by the demo. The licence election is complete for the identified author-controlled scope. It does not imply publication approval, independent legal clearance, or the scientific guarantees excluded above.

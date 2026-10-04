@@ -1,6 +1,8 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 # Author-controlled contributions: Satoshi Kawasaki; see LICENSE_NOTICE.md.
 # Adapted for the synthetic review demo revision on 2026-10-03.
+# Modified 2026-10-04: update public-release package validation (v1.2).
+# Modified 2026-10-04: add these dated change notices (v1.3); logic unchanged.
 """Explicit file allowlist: stage a development manifest, then build/verify a local ZIP."""
 import ast
 import hashlib

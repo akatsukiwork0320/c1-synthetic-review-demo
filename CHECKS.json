@@ -1,17 +1,17 @@
 {
   "code_unchanged": true,
   "driver_pins": {
-    "package_demo.py": "a360d393ed711e334e6a2fa87ce81e844e9dd26c98963287679470141bf0499f",
+    "package_demo.py": "9c4f8ab6eeedc28f16fe7b71260789cfedb1194436e13200870f6e1a167f5b4f",
     "run_checks.py": "2bb3f493f76465477742f0c63c95a74972def25bef3178ee063568592d01bc84",
     "test_demo.py": "8bc093d9fdf250ef0d2c31a4963925991532e8d651bf70d7c623be23c935b5db"
   },
-  "elapsed_seconds": 1.8119999999762513,
+  "elapsed_seconds": 1.7660000000032596,
   "errors": 0,
   "failed_test_ids": [],
   "failures": 0,
   "platform": "Windows",
   "python": "3.12.6",
-  "runtime_manifest_sha256": "eeec6ec58b8274f8c133b47574fb989c34e31d2f3264fcf4c74dc99c00412b0d",
+  "runtime_manifest_sha256": "341f5384c18e3c8640fa4f71b92b55d84d5320d331e5e6c85c0a17513d3d6cac",
   "schema": "c1-synthetic-harness-check/1",
   "scope": "New demo harness tests; does not rerun the historical 87-test suite",
   "sqlite": "3.45.3",

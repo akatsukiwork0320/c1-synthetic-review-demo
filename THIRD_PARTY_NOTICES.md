@@ -4,7 +4,7 @@ The author has elected GPL-2.0-or-later for the author-controlled material and c
 
 ## Selected engine copies
 
-Eight Python files in `engine/` are retained without changes. Their source pins and the pins of two synthetic-test references are in `SOURCE_PROVENANCE.json`. Source comments, including SPDX notices, were retained. The top-level election and per-file licence map record the author-controlled scope without adding headers or modifying these eight files.
+Seven Python files in `engine/` are retained without changes. `engine/ref_invariants.py` adds a dated attribution/change notice on 2026-10-04; only comments changed and its Python AST matches v1.2. The original source pins, distributed revision hash and two synthetic-test references are in `SOURCE_PROVENANCE.json`. Existing comments and SPDX notices are retained. The top-level election and per-file map record the author-controlled scope.
 
 | Files | Provenance and handling |
 |---|---|
@@ -29,6 +29,6 @@ The full `UniswapV3Pool.sol` reference bearing a BUSL-1.1 marker is **not includ
 
 ## New and adapted material
 
-The fixture builder, selected expected results, comparison logic, worker, runner, tests, clean-copy verification, packaging, and documents were created/adapted for this demo on 2026-10-03. The fixture structure draws on the two synthetic tests identified by provenance. The runtime engine itself was not edited. New material was generated with ChatGPT/Codex and AI-assisted review under the author's direction. This statement is not a human independent audit.
+The fixture builder, selected expected results, comparison logic, worker, runner, tests, clean-copy verification, packaging, and documents were created/adapted for this demo on 2026-10-03. The fixture structure draws on the two synthetic tests identified by provenance. Version 1.2 changed publication documentation and package validation on 2026-10-04. Version 1.3 adds file-level change notices on that date; engine and packaging logic and fixture inputs remain unchanged. The notice-addition date is not asserted to be the date of the earlier TickMath translation. New material was generated with ChatGPT/Codex and AI-assisted review under the author's direction. This statement is not a human independent audit.
 
 The author's GPL-2.0-or-later election includes the identified author-controlled code, fixtures, expected results, tests, verification and packaging tools, documentation, and metadata. The exact file-level scope is in `LICENSE_MAP.json`. The corresponding source, GPL text, and third-party notices are retained for GPL-covered parts. The election is complete for that scope; it does not imply independent legal clearance, publication approval, or an operational support commitment. Packaging follows an explicit file allowlist. Candidate-management manifests, publication-selection records, and adjacent delivery/verification records remain outside the ZIP.

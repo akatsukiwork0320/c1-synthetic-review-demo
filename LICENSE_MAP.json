@@ -122,7 +122,7 @@
       "path": "engine/process_guard.py"
     },
     {
-      "basis": "Existing SPDX and TickMath attribution retained; SOURCE_PROVENANCE.json; bytes unchanged",
+      "basis": "GPL-2.0-or-later TickMath translation with retained upstream attribution; v1.3 adds a dated comment-only notice; Python AST equal to v1.2; original source pin retained",
       "category": "EXISTING_GPL_DERIVED_SOURCE",
       "license_expression": "GPL-2.0-or-later",
       "path": "engine/ref_invariants.py"

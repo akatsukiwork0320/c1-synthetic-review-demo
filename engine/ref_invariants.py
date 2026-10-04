@@ -1,4 +1,9 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Modified 2026-10-04 by Satoshi Kawasaki with AI assistance: add this notice.
+# This file includes a Python translation of the Uniswap v3 TickMath
+# forward map identified below, plus an integer binary-search inverse.
+# The date above is the notice-addition date, not an asserted date of
+# the earlier translation. Version 1.3 changes comments only.
 """Integer anchor invariants; no file, network, decoder, or solver access.
 
 TickMath forward constants/rounding are translated from the pinned Uniswap

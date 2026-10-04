@@ -39,10 +39,14 @@
     },
     {
       "bytes": 11542,
-      "copied_unchanged": true,
+      "copied_unchanged": false,
       "sha256": "f4389eb627ea934e7c35c915faf506553a0e63e36761ecc6914fbd61a39e6c6a",
       "source_file": "ref_invariants.py",
-      "use": "RUNTIME_COPY"
+      "use": "RUNTIME_COPY_WITH_COMMENT_NOTICE",
+      "distributed_sha256": "ebf12a59b262060fcc364b73dd4162a4e7ff00b87c15a65f665a88755791acd0",
+      "change_date": "2026-10-04",
+      "change_scope": "Dated attribution/change notice only; AST compared equal to v1.2",
+      "prior_source_pin_retained": true
     },
     {
       "bytes": 1927,
@@ -82,8 +86,9 @@
   ],
   "licensing": "Author-controlled candidate contributions are GPL-2.0-or-later; see LICENSE_NOTICE.md and LICENSE_MAP.json; existing third-party grants retained",
   "schema": "c1-synthetic-source-provenance/1",
-  "scope": "Eight byte-identical runtime files, plus two inspected synthetic test references; no real input artifacts",
+  "scope": "Seven byte-identical runtime files, one runtime file with comment-only attribution notice, and two synthetic test references; no real input artifacts",
   "upstream": {
     "TickMath_commit": "e3589b192d0be27e100cd0daaf6c97204fdb1899"
-  }
+  },
+  "release_revision": "1.3"
 }
