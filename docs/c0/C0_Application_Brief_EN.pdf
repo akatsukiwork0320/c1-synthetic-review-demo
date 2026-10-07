@@ -1,0 +1,642 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
+>>
+endobj
+2 0 obj
+<<
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
+>>
+endobj
+3 0 obj
+<<
+/Annots [ 4 0 R ]
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057akatsukiwork0320\057c1\055synthetic\055review\055demo\057tree\057cefb0b0fde950e6bf892554d4d99a2aed055fc63)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 48 577.7335 243.8872 589.9835 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/Length 7269
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0.847059 0.886275 0.909804 RG
+n
+42 37 m
+553 37 l
+S
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0.278431 0.333333 0.411765 rg
+BT
+1 0 0 1 42 25 Tm
+(7 October 2026 \174 Application proposal) Tj
+T*
+ET
+BT
+1 0 0 1 548.83 25 Tm
+(1) Tj
+T*
+ET
+q
+1 0 0 1 48 750.8898 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 27 Tm
+/F2 21 Tf
+24 TL
+(Evidence\055bound verification for Uniswap v3) Tj
+T*
+(replays) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 731.8898 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12 TL
+/F1 9 Tf
+0.278431 0.333333 0.411765 rg
+(Satoshi Kawasaki \174 Research \046 Implementation \174 Grant application proposal) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 712.6398 cm
+q
+BT
+1 0 0 1 0 3 Tm
+12.25 TL
+/F2 9.25 Tf
+0.082353 0.2 0.294118 rg
+(Proposed request\072 \04446\054000) Tj
+/F1 9.25 Tf
+(   \174   500 person\055hours   \174   28 weeks at 20 h\057week) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 692.6398 cm
+q
+0.031373 0.498039 0.54902 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 10 Tf
+13 TL
+(The review problem) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 652.8898 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 27.5 Tm
+/F1 9.25 Tf
+12.25 TL
+-0.078508 Tw
+(Uniswap v3 tooling maintainers need to trace a replay comparison to the inputs\054 code and checks behind it\056 Matching state) Tj
+T*
+0 Tw
+(values does not establish complete event history\073 a rejected test may fail for an unrelated reason\056 This project makes) Tj
+T*
+(those limits inspectable\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 632.8898 cm
+q
+0.031373 0.498039 0.54902 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 10 Tf
+13 TL
+(Inspect the existing demo) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 593.1398 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 27.5 Tm
+/F1 9.25 Tf
+12.25 TL
+(Four public synthetic cases exercise selected pool\057tick\055state reconstruction\054 declared missing coverage and malformed) Tj
+T*
+-0.049608 Tw
+(input\056 Python 3\05612\0566 and the standard library\073 no RPC endpoint or wallet\056 This completed baseline is not billed to the grant\056) Tj
+T*
+0 Tw
+(It does not discover secretly omitted logs or provide OS isolation\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 575.8898 cm
+q
+0.031373 0.498039 0.54902 rg
+0.031373 0.498039 0.54902 RG
+n
+0 1.84375 m
+195.8872 1.84375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F1 9.25 Tf
+12.25 TL
+(Open the fixed public demo and run instructions) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 555.8898 cm
+q
+0.031373 0.498039 0.54902 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 10 Tf
+13 TL
+(The remaining work) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 516.1398 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 27.5 Tm
+/F1 9.25 Tf
+12.25 TL
+(C1 has a v3 replay baseline with partial evidence integration\056 Expected\055result protection across the full declared workflow\054) Tj
+T*
+(event\055specific explanation checks and execution evidence for seven original claims remain incomplete\056 Those claims) Tj
+T*
+(currently remain OPEN\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 496.1398 cm
+q
+0.031373 0.498039 0.54902 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 10 Tf
+13 TL
+(Funded deliverables and acceptance evidence) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 334.1398 cm
+q
+0.917647 0.952941 0.964706 rg
+n
+0 159 511 -23 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 142 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 8.5 Tf
+11 TL
+(Deliverable) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 165 142 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 8.5 Tf
+11 TL
+(Plan) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 244 142 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 8.5 Tf
+11 TL
+(Acceptance evidence) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 108 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 13.5 Tm
+/F2 8.5 Tf
+11 TL
+(M1 Protected comparison) Tj
+T*
+(execution) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 165 108 cm
+q
+BT
+1 0 0 1 0 13.5 Tm
+11 TL
+/F1 8.5 Tf
+0.082353 0.2 0.294118 rg
+(Weeks 1\0556) Tj
+T*
+(\04410\054480) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 244 108 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 13.5 Tm
+/F1 8.5 Tf
+11 TL
+(Allowed\057denied controls across every registered execution target\073) Tj
+T*
+(separate expected results and outer grading\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 74 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 13.5 Tm
+/F2 8.5 Tf
+11 TL
+(M2 Reason and event attribution) Tj
+T*
+(controls) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 165 74 cm
+q
+BT
+1 0 0 1 0 13.5 Tm
+11 TL
+/F1 8.5 Tf
+0.082353 0.2 0.294118 rg
+(Weeks 7\05512) Tj
+T*
+(\0449\054560) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 244 74 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 13.5 Tm
+/F1 8.5 Tf
+11 TL
+(Baseline\054 reached check and correct reason\057event\073 original semantic) Tj
+T*
+(mutants plus rejection controls\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 51 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 8.5 Tf
+11 TL
+(M3 Execution\055bound claim review) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 165 40 cm
+q
+BT
+1 0 0 1 0 13.5 Tm
+11 TL
+/F1 8.5 Tf
+0.082353 0.2 0.294118 rg
+(Weeks 13\05523) Tj
+T*
+(\04417\054840) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 244 40 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 13.5 Tm
+/F1 8.5 Tf
+11 TL
+(Seven claim reviews\054 each bound to retrievable same\055scope) Tj
+T*
+(evidence and unresolved dependencies\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 17 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 8.5 Tf
+11 TL
+(M4 Reproducible reference release) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 165 6 cm
+q
+BT
+1 0 0 1 0 13.5 Tm
+11 TL
+/F1 8.5 Tf
+0.082353 0.2 0.294118 rg
+(Weeks 24\05528) Tj
+T*
+(\0448\054120) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 244 6 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 13.5 Tm
+/F1 8.5 Tf
+11 TL
+(Clean\055environment synthetic reproduction\073 source\054 tests\054) Tj
+T*
+(dependency\057licence records and report\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.847059 0.886275 0.909804 RG
+0.35 w
+n
+0 136 m
+511 136 l
+S
+n
+0 102 m
+511 102 l
+S
+n
+0 68 m
+511 68 l
+S
+n
+0 34 m
+511 34 l
+S
+n
+0 0 m
+511 0 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 48 314.1398 cm
+q
+0.031373 0.498039 0.54902 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 10 Tf
+13 TL
+(Acceptance and delivery) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 274.3898 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 27.5 Tm
+/F1 9.25 Tf
+12.25 TL
+(All registered observable checks must be implemented and executed\056 Every claim need not become supported\073 missing) Tj
+T*
+-0.029244 Tw
+(evidence and direct refutations remain visible\056 Public synthetic reproduction is separate from restricted empirical evidence\056) Tj
+T*
+0 Tw
+(Source\054 tests\054 environment and licence records\054 and a final report are included\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 254.3898 cm
+q
+0.031373 0.498039 0.54902 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 10 Tf
+13 TL
+(Scope and accountability) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 214.6398 cm
+q
+0.082353 0.2 0.294118 rg
+BT
+1 0 0 1 0 27.5 Tm
+/F1 9.25 Tf
+12.25 TL
+(Finite v3 research and software delivery\073 v4 hooks\054 trading and hosted operations are outside scope\056 Adoption and) Tj
+T*
+(review\055time savings are unmeasured\056 Generative AI substantially assists implementation\054 writing and review\073 Satoshi) Tj
+T*
+(Kawasaki is responsible for the claims\056 AI review is not independent human validation\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48 204.6398 cm
+Q
+q
+1 0 0 1 48 173.1398 cm
+q
+0.278431 0.333333 0.411765 rg
+BT
+1 0 0 1 0 23.5 Tm
+/F1 8 Tf
+10.5 TL
+(Budget basis\072 500 person\055hours at \04490 \053 \0441\054000 incremental tool\057compute allowances\056 Progress reporting is included\056 Budget and schedule) Tj
+T*
+(remain provisional until the final worker\057resource matrix and experiment contexts are registered\056 Allocation\054 start\054 licence review and) Tj
+T*
+(acceptance\055remediation terms require agreement\056 This is a planning estimate\054 not an optimal\055price claim\056) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Author (Satoshi Kawasaki)
+/CreationDate (D\07220261007024615\05309\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220261007024615\05309\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (Evidence\055bound verification for Uniswap v3 replays)
+/Trapped /False
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000142 00000 n 
+0000000359 00000 n 
+0000000644 00000 n 
+0000007965 00000 n 
+0000008006 00000 n 
+0000008113 00000 n 
+0000008225 00000 n 
+trailer
+<<
+/Size 10
+/Root 1 0 R
+/Info 9 0 R
+/ID [ <98ecc6848733203dd462f6d634e522f5> <98ecc6848733203dd462f6d634e522f5> ]
+>>
+startxref
+8584
+%%EOF

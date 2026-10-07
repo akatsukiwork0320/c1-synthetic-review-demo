@@ -1,12 +1,12 @@
-# Review a Uniswap v3 replay result and its evidence
+# Evidence-bound verification for Uniswap v3 replays
 
-**Research proposal and existing synthetic demo | Satoshi Kawasaki**
+**Submitted research proposal and existing synthetic demo | Satoshi Kawasaki**
 
-[Read the one-page proposal (PDF)](../docs/c0/C0_Reviewable_V3_Brief_DRAFT.pdf) | [Read the same brief as text](../docs/c0/BRIEF_EN.md)
+[Read the submitted one-page proposal (PDF)](../docs/c0/C0_Application_Brief_EN.pdf) | [Read the public proposal overview](../docs/c0/BRIEF_EN.md)
 
-The proposal describes future work; publication is not a grant application or an award.
+Submitted to Uniswap Foundation on 7 October 2026. Funding approval and contractual terms are not confirmed. The proposed new verification workflow is pre-launch; the existing synthetic replay demo is available below.
 
-For developers and reviewers checking reconstructed pool state, the research goal is to connect each result to its scope, inputs, code version and unresolved evidence. The current public demo exercises replay and ABI boundaries; complete meta-audit integration is proposed work.
+For developers and reviewers checking reconstructed pool state, the goal is to connect each in-scope result to its inputs, code version, comparison conditions and unresolved assumptions. Matching state values alone does not establish complete event history.
 
 ## Run the existing four-case demo
 
@@ -35,24 +35,29 @@ python -I -B run_checks.py --output ../demo_checks1_3.json
 
 These commands run in the existing package, not in this document folder. Its Python process guard is not an OS sandbox. Retain the source README, GPL-2.0-or-later notices and file-level provenance; this landing page does not replace them.
 
-## What the proposed evidence review adds
+## Proposed work and acceptance evidence
 
-A bounded v3 project would complete controlled worker execution, analyzer-produced attribution for fixed omission tests, and traceable claim-to-evidence links. Current integration is partial. Deliverables would be reference code, fixed tests and a reproducible report.
+The request is **USD 46,000 for an estimated 500 person-hours over 28 weeks at 20 project hours per week**, from an agreed start. Completed C0/C1 work and application preparation are excluded from the request.
 
-An additional synthetic receipt demo is **planned, not implemented or published**. Its first three examples would distinguish:
+| Proposed deliverable | Weeks | USD | Acceptance evidence |
+|---|---|---:|---|
+| M1 Protected comparison execution | 1-6 | 10,480 | Allowed/denied controls across every registered target; expected results and grading outside the worker. |
+| M2 Reason and event attribution controls | 7-12 | 9,560 | Valid baseline, intended check reached, correct reason/event, and all original semantic controls. |
+| M3 Execution-bound claim review | 13-23 | 17,840 | Seven claim reviews linked to retrievable same-scope execution evidence and unresolved dependencies. |
+| M4 Reproducible reference release | 24-28 | 8,120 | Clean-environment synthetic reproduction; source, tests, dependency/licence records and report. |
 
-1. A check reached the intended rejection reason and event, with normal and premise controls passing.
-2. Rejection happened for an unrelated reason, which does not support that check.
-3. A synthetic receipt reports worker failure, leaving the claim unevaluated.
+The original A08, A17 and A22 acceptance items remain incomplete; claims C01-C07 remain OPEN. All registered observable checks must be implemented and executed. Every claim need not become supported, but missing in-scope implementation or execution does not meet acceptance. This documentation update does not add those capabilities to the four-case demo.
 
-The full planned suite has eight receipt cases. These declared synthetic receipts do not audit live outputs of the existing replay demo. Actual runner errors must remain errors.
+The final worker/resource matrix, experiment contexts, delivery schedule, licences and acceptance-remediation terms remain subject to agreement. The budget is a planning estimate, not a measured market rate or optimal-price claim. [Read the detailed scope and budget](../docs/c0/BRIEF_EN.md).
 
 ## Scope and authorship
 
-The empirical replay case covers one pool. Known remains conditional on the model and evidence premises. This is not a general EVM simulator, a v4 hook verifier or a trading-safety guarantee. Review-time savings have not been measured.
+The private empirical case covers one pool and is not publicly reproducible evidence. Known remains conditional on the model and evidence premises. This is not a general EVM simulator, arbitrary v4 hook verifier or trading-safety guarantee. Hosted operations are outside the proposed scope. Adoption and review-time savings have not been measured.
 
-Generative AI substantially assisted implementation and writing. Satoshi Kawasaki is responsible for the claims; AI review is not an independent human audit.
+Satoshi Kawasaki applies as an individual, defines the research questions and acceptance criteria, reviews results, and takes responsibility for the claims and limitations. Generative AI substantially supports implementation, documentation and review. AI-assisted review is not independent human auditing. No company development team or independent human auditor is committed to the project.
 
-## Package documentation
+## Package and version documentation
 
-The [original v1.3 package README](../README.md), [licence notice](../LICENSE_NOTICE.md) and [file-level provenance](../SOURCE_PROVENANCE.json) remain unchanged. This page and the C0 brief are additional documentation, outside the sealed v1.3 package manifest. For the exact tested package, use the fixed revision linked above.
+The [original v1.3 package README](../README.md), [licence notice](../LICENSE_NOTICE.md), [file-level provenance](../SOURCE_PROVENANCE.json) and sealed demo remain unchanged. The C0 documents are outside that package's MANIFEST and have their own [document checksums](../docs/c0/C0_FILES.sha256).
+
+The new PDF is the same file attached to the formal application. The [earlier inquiry PDF](../docs/c0/C0_Reviewable_V3_Brief_DRAFT.pdf) remains available as historical material; its scope and questions should not be read as the current application. The [pre-application documentation revision](https://github.com/akatsukiwork0320/c1-synthetic-review-demo/tree/51e520a58a97c66fc6957794831859e2c64b71ab) is preserved. No award or technical acceptance closure is implied by this publication.
